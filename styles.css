@@ -56,7 +56,11 @@ html {
         width: 358px;
     }
 
-    .key {
+    .keys {
         width: 318px;
+    }
+
+    .logo {
+        width: 150px;
     }
 }
