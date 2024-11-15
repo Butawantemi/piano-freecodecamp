@@ -1,12 +1,14 @@
 html {
     box-sizing: border-box;
-  }
-  
-  *, *::before, *::after {
+}
+
+*,
+*::before,
+*::after {
     box-sizing: inherit;
-  }
-  
-  #piano {
+}
+
+#piano {
     background-color: #00471b;
     width: 992px;
     height: 290px;
@@ -14,16 +16,16 @@ html {
     padding: 90px 20px 0 20px;
     position: relative;
     border-radius: 10px;
-  }
-  
-  .keys {
+}
+
+.keys {
     background-color: #040404;
     width: 949px;
     height: 180px;
     padding-left: 2px;
-  }
-  
-  .key {
+}
+
+.key {
     background-color: #ffffff;
     position: relative;
     width: 41px;
@@ -31,19 +33,20 @@ html {
     margin: 2px;
     float: left;
     border-radius: 0 0 3px 3px;
-  }
-  
-  .key.black--key::after {
+}
+
+.key.black--key::after {
     background-color: #1d1e22;
     content: "";
     position: absolute;
     left: -18px;
     width: 32px;
     height: 100px;
-  }
-  
-  .logo {
+    border-radius: 0 0 3px 3px;
+}
+
+.logo {
     width: 200px;
     position: absolute;
     top: 23px;
-  }
+}
